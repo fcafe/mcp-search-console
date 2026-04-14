@@ -1,0 +1,34 @@
+{
+  "name": "mcp-search-console",
+  "version": "0.1.0",
+  "description": "MCP server for Google Search Console API",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-search-console": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "auth": "node dist/auth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcafe/mcp-search-console.git"
+  },
+  "keywords": ["mcp", "google-search-console", "seo"],
+  "author": "fcafe",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fcafe/mcp-search-console/issues"
+  },
+  "homepage": "https://github.com/fcafe/mcp-search-console#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "googleapis": "^171.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
+  }
+}
